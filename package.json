@@ -1,5 +1,7 @@
 {
   "main": "./stream.js",
+  "name": "jspm-nodelibs-stream",
+  "version": "0.2.0",
   "registry": "github",
   "map": {
     "./stream.js": {
@@ -9,5 +11,6 @@
   },
   "dependencies": {
     "stream-browserify": "npm:stream-browserify@^2.0.1"
-  }
+  },
+  "jspmNodeConversion": false
 }
